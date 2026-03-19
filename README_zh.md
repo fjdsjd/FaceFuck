@@ -112,20 +112,6 @@ python main.py
 
 没有图片就留空，不影响运行。
 
-## 附带脚本：提取视频中最“像某种情绪”的帧
-
-用于扫描视频，保存 7 种情绪中置信度最高的帧（每种一张）：
-
-```powershell
-python example\extract_best_emotions.py --video path\to\video.mp4
-```
-
-如果你只想提取某个人（参考人脸过滤）：
-
-```powershell
-python example\extract_best_emotions.py --video path\to\video.mp4 --ref-image path\to\ref.jpg
-```
-
 ## 参数调优（如果你的脸太强了）
 
 如果输入太抖或太慢，可以在 `src/qt_ui.py` 调这些参数：
