@@ -112,20 +112,6 @@ Keys include:
 
 Missing images are shown as empty cells (no drama).
 
-## Extra Script: Extract Best Emotion Frames
-
-Scan a video and save the highest-confidence frame for each of the 7 emotions:
-
-```powershell
-python example\extract_best_emotions.py --video path\to\video.mp4
-```
-
-Optional (filter to a specific person):
-
-```powershell
-python example\extract_best_emotions.py --video path\to\video.mp4 --ref-image path\to\ref.jpg
-```
-
 ## Tuning (If Your Face Is Too Powerful)
 
 If input feels too jumpy or too slow, tweak these in `src/qt_ui.py`:
